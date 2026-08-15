@@ -187,7 +187,7 @@ class ProductDAO:
             p.stock,
             c.name
         FROM products p
-        LEFT JOIN categories c
+        JOIN categories c
         ON p.category_id = c.id
         ORDER BY p.id
         LIMIT %s OFFSET %s
