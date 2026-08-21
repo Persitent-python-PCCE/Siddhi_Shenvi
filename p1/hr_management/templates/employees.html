@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Catalogue</title>
+</head>
+
+<body>
+
+    <h1>Employee Catalogue</h1>
+
+    {% if employees %}
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>Department</th>
+                    <th>Designation</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for employee in employees %}
+
+                    <tr>
+
+                        <td>{{ employee.id }}</td>
+
+                        <td>{{ employee.full_name }}</td>
+
+                        <td>{{ employee.phone }}</td>
+
+                        <td>{{ employee.address }}</td>
+
+                        <td>{{ employee.department_id }}</td>
+
+                        <td>{{ employee.designation_id }}</td>
+
+                        <td>{{ employee.status }}</td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    {% else %}
+
+        <p>No employees found.</p>
+
+    {% endif %}
+
+</body>
+
+</html>
