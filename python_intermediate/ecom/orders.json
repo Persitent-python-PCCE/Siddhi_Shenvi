@@ -1,0 +1,52 @@
+[
+    {
+        "order_id": 10001,
+        "customer_id": 2765,
+        "product": "Headphones",
+        "quantity": 4,
+        "unit_price": 33254.28,
+        "total_amount": 133017.12,
+        "status": "Delivered",
+        "order_date": "2026-03-20"
+    },
+    {
+        "order_id": 10002,
+        "customer_id": 3134,
+        "product": "Monitor",
+        "quantity": 4,
+        "unit_price": 7626.22,
+        "total_amount": 30504.88,
+        "status": "Cancelled",
+        "order_date": "2026-07-12"
+    },
+    {
+        "order_id": 10003,
+        "customer_id": 4853,
+        "product": "Mouse",
+        "quantity": 5,
+        "unit_price": 33059.24,
+        "total_amount": 165296.2,
+        "status": "Shipped",
+        "order_date": "2026-05-27"
+    },
+    {
+        "order_id": 10004,
+        "customer_id": 4224,
+        "product": "Laptop",
+        "quantity": 4,
+        "unit_price": 46380.45,
+        "total_amount": 185521.8,
+        "status": "Pending",
+        "order_date": "2026-06-15"
+    },
+    {
+        "order_id": 10005,
+        "customer_id": 5121,
+        "product": "Monitor",
+        "quantity": 1,
+        "unit_price": 94203.43,
+        "total_amount": 94203.43,
+        "status": "Cancelled",
+        "order_date": "2026-10-25"
+    }
+]

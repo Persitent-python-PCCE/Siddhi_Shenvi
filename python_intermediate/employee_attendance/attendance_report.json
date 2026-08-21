@@ -1,0 +1,32 @@
+[
+    {
+        "employee_id": 1001,
+        "name": "Arun Kumar",
+        "department": "Sales",
+        "total_working_days": 21,
+        "present_days": 15,
+        "absent_days": 4,
+        "leave_days": 2,
+        "attendance_percentage": 71.43
+    },
+    {
+        "employee_id": 1002,
+        "name": "Neha Joshi",
+        "department": "Finance",
+        "total_working_days": 21,
+        "present_days": 20,
+        "absent_days": 0,
+        "leave_days": 1,
+        "attendance_percentage": 95.24
+    },
+    {
+        "employee_id": 1003,
+        "name": "Neha Joshi",
+        "department": "Sales",
+        "total_working_days": 21,
+        "present_days": 18,
+        "absent_days": 1,
+        "leave_days": 2,
+        "attendance_percentage": 85.71
+    }
+]

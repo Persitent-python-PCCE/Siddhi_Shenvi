@@ -1,0 +1,77 @@
+[
+    {
+        "student_id": 1,
+        "name": "Rishabh",
+        "age": 23,
+        "department": "Mechanical",
+        "marks": {
+            "python": 87,
+            "database": 45,
+            "networks": 86
+        },
+        "total": 218,
+        "average": 72.66666666666667,
+        "result": "Pass",
+        "exam_date": "2026-10-06"
+    },
+    {
+        "student_id": 2,
+        "name": "Rishabh",
+        "age": 18,
+        "department": "Electronics",
+        "marks": {
+            "python": 18,
+            "database": 85,
+            "networks": 3
+        },
+        "total": 106,
+        "average": 35.333333333333336,
+        "result": "Fail",
+        "exam_date": "2026-12-13"
+    },
+    {
+        "student_id": 3,
+        "name": "Siddhi",
+        "age": 23,
+        "department": "Mechanical",
+        "marks": {
+            "python": 19,
+            "database": 24,
+            "networks": 82
+        },
+        "total": 125,
+        "average": 41.666666666666664,
+        "result": "Fail",
+        "exam_date": "2026-11-10"
+    },
+    {
+        "student_id": 4,
+        "name": "Siddhi",
+        "age": 23,
+        "department": "Electronics",
+        "marks": {
+            "python": 46,
+            "database": 56,
+            "networks": 18
+        },
+        "total": 120,
+        "average": 40.0,
+        "result": "Fail",
+        "exam_date": "2026-02-17"
+    },
+    {
+        "student_id": 5,
+        "name": "Rajesh",
+        "age": 23,
+        "department": "Electronics",
+        "marks": {
+            "python": 97,
+            "database": 65,
+            "networks": 78
+        },
+        "total": 240,
+        "average": 80.0,
+        "result": "Pass",
+        "exam_date": "2026-03-05"
+    }
+]
